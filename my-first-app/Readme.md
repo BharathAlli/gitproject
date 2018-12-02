@@ -17,14 +17,14 @@ I've written a complete tutorial series for this application on The CalliCoder B
 1. **Clone the application**
 
 	```bash
-	git clone https://github.com/callicoder/spring-security-react-ant-design-polls-app.git
-	cd polling-app-server
+	git clone https://github.com/BharathAlli/gitproject
+	cd users-app-api
 	```
 
 2. **Create MySQL database**
 
 	```bash
-	create database polling_app
+	create database users_app_db
 	```
 
 3. **Change MySQL username and password as per your MySQL installation**
@@ -47,7 +47,7 @@ I've written a complete tutorial series for this application on The CalliCoder B
 
 	```bash
 	mvn package
-	java -jar target/polls-0.0.1-SNAPSHOT.jar
+	java -jar target/users-0.0.1-SNAPSHOT.jar
 	```
 5. **Add the default Roles**
 	
@@ -60,12 +60,12 @@ I've written a complete tutorial series for this application on The CalliCoder B
 
 	Any new user who signs up to the app is assigned the `ROLE_USER` by default.
 
-## Steps to Setup the React Front end app (polling-app-client)
+## Steps to Setup the React Front end app (users-app-client)
 
-First go to the `polling-app-client` folder -
+First go to the `users-app-client` folder -
 
 ```bash
-cd polling-app-client
+cd users-app-client
 ```
 
 Then type the following command to install the dependencies and start the application -
